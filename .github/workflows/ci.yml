@@ -24,7 +24,7 @@ jobs:
       - name: Scan for known security vulnerabilities in gems used
         run: bundle exec bundler-audit
 
-  scan_js:
+   scan_js:
     runs-on: ubuntu-latest
 
     steps:
@@ -37,8 +37,7 @@ jobs:
           bundler-cache: true
 
       - name: Scan for security vulnerabilities in JavaScript dependencies
-        run: run: bundle exec importmap audit
-
+        run: bundle exec importmap audit
   lint:
     runs-on: ubuntu-latest
 
