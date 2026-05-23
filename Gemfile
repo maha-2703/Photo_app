@@ -7,6 +7,7 @@ gem "rails", "~> 8.1.3"
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
 gem 'devise'
+gem 'razorpay'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 
@@ -68,6 +69,8 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "dotenv-rails"
+  
 end
 
 group :test do
