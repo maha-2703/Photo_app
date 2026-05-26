@@ -1,0 +1,9 @@
+development:
+  cloud_name: "dvdkihyhm"
+  api_key: "617265915397281"
+  api_secret: "DUnkjDIibTbgiDwN6K7m1KCXt2k"
+
+production:
+  cloud_name: "dvdkihyhm"
+  api_key: "617265915397281"
+  api_secret: "DUnkjDIibTbgiDwN6K7m1KCXt2k"
